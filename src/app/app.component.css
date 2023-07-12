@@ -1,0 +1,88 @@
+.container{
+    width:70%;
+    margin:auto;
+    box-shadow: 25px 25px 25px 25px rgb(51, 49, 49);
+    border:1px solid rgb(255, 255, 255);
+
+    margin-top:50px;
+}
+
+table, form{
+    width:100%;
+}
+
+table{
+  background:rgb(143, 143, 143);
+    padding: 20px 0px;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: rgb(94, 52, 29);
+    color:rgb(255, 255, 255);
+}
+table, th, td {
+    border-right:1px solid white;
+    padding:10px;
+  }
+
+form div {
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  input {
+    width:90%;
+    padding:10px;
+    font-size:16px;
+    outline:none;
+  }
+
+  .formContainer{
+    background: linear-gradient(to bottom, #693f09 0%, #a14f3b 100%);
+    color:White;
+    padding: 20px 0px;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom:20px;
+  }
+
+  .buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons button, table tbody button{
+    padding:10px;
+    color:white;
+    font-size:20px;
+    background:rgb(155, 153, 156);
+    border:none;
+    outline:none;
+    margin-top:10px;
+  }
+
+  table tbody button{
+    background: linear-gradient(to bottom, #693f09 0%, #a14f3b 100%);
+  }
+
+  table tbody button:last-child{
+    margin-left:10px;
+  }
+
+  .buttons button:hover,  table tbody button:hover{
+    cursor:pointer;
+    background:white;
+    color:black;
+}
+
